@@ -48,7 +48,6 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 
 <!-- Don't have an account link -->
 <a  href="selectUserProfileType.php">Don't have an account?</a>
-
 </form>
 <!-- End of form section -->
 </div>
@@ -57,6 +56,9 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 </div>
 <!-- End of container -->
 </div>
+
+<!-- Prevent footer from hiding the "Don't have an account?" link -->
+<div style="height: 50px;"></div>
 
 <?php
 Shared::footer();

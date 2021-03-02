@@ -36,9 +36,10 @@ class Shared {
 
     static function footer() { ?>
 
+            
             <footer>
             <!-- Copyright -->
-            <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div class="text-center">
             © 2021 SuperGreenTeam
             </div>
             <!-- Copyright -->
