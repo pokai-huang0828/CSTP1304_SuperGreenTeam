@@ -15,7 +15,7 @@ Shared::navbar();
 
     <div class="card success col-8" id="creditBoard">
     <div class="card-body row align-items-center">
-        <h1>Your farm Credits: 721</h1>
+        <h3>Your farm Credits:<br>721</h3>
     </div>
     </div>
 </div>

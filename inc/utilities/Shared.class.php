@@ -59,25 +59,30 @@ class Shared {
     static function navbar() { ?>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <a class="navbar-brand" href="#">
-                <img class="img-fluid " src="assets/logo.png" width=200 alt="LoGrow farm logo">
+                <img class="img-fluid" src="assets/logo.png" width=200 alt="LoGrow farm logo">
             </a>
 
-            <i class="bi bi-chat-left-dots" style="font-size: 1.5rem;"></i>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
+            <div class="collapse navbar-collapse flex-row-reverse mt-1" id="navbarTogglerDemo01">
+                <hr>
+                <ul class="navbar-nav">
+                
+                <li class="nav-item btn btn-border">
                     <a class="nav-link" href="customerInfoUpdatePage.php">Update my info</a>
                 </li>
-                <li class="nav-item">
+                
+                <li class="nav-item btn btn-border">
                     <a class="nav-link" href="#">Logout</a>
+                </li>
+
+                <li class="nav-item btn">
+                    <i class="bi bi-chat-left-dots" style="font-size: 1.5rem;"></i>
                 </li>
                 </ul>
             </div>
