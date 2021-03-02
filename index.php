@@ -58,7 +58,7 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 </div>
 
 <!-- Prevent footer from hiding the "Don't have an account?" link -->
-<div class="d-sm-block d-md-block d-lg-none" style="height: 50px;"></div>
+<div class="d-sm-block d-md-none d-lg-none" style="height: 50px;"></div>
 <div class="d-none d-md-block d-lg-none" style="height: 150px;"></div>
 
 <?php

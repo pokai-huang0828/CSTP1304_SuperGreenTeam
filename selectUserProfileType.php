@@ -25,7 +25,7 @@ Shared::header("LoGrow farm Login Page");
     <div class="col">
         <a href="signUpPage.php">
         <img class="img-thumbnail mb-2 rounded-circle border-success" src="assets/farmerIcon.png" alt="farmer profile">
-    </a>
+        </a>
     <h2>Farmer</h2>
         <!-- <button class="btn btn-primary">A Farmer</button class="btn"> -->
     </div>

@@ -4,7 +4,7 @@ Shared::header("LoGrow farm Login Page", "css/customerProfilePage.css");
 Shared::navbar();
 ?>
 
-<div class="container">
+<div class="container" style="min-height: 80%;">
 
 <!-- Customer Info Section -->
 <div class="row container text-center mt-1 mb-2">
@@ -32,7 +32,7 @@ Shared::navbar();
 </nav>
 
 <!-- Tab bar targets -->
-<div class="tab-content" id="nav-tabContent">
+<div class="tab-content" id="nav-tabContent" >
 
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
       no shopping history
