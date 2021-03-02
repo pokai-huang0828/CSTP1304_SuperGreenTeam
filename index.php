@@ -47,7 +47,7 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 <button type="button" class="btn btn-success w-100 btn-lg my-2">Sign in</button>
 
 <!-- Don't have an account link -->
-<a href="#">Don't have an account?</a>
+<a href="selectUserProfileType.php">Don't have an account?</a>
 
 </form>
 <!-- End of form section -->
