@@ -64,7 +64,7 @@ class Shared {
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Update my info</a>
+                    <a class="nav-link" href="customerInfoUpdatePage.php">Update my info</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Logout</a>
