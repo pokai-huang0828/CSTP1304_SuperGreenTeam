@@ -23,16 +23,18 @@ Shared::header("LoGrow farm Login Page");
 
 <div class="row text-center">
     <div class="col">
-        <img class="img-thumbnail mb-2" src="assets/farmerIcon.png" alt="farmer profile">
         <a href="signUpPage.php">
-        <button class="btn btn-primary">A Farmer</button class="btn">
-        </a>
+        <img class="img-thumbnail mb-2 rounded-circle border-success" src="assets/farmerIcon.png" alt="farmer profile">
+    </a>
+    <h2>Farmer</h2>
+        <!-- <button class="btn btn-primary">A Farmer</button class="btn"> -->
     </div>
     <div class="col">
-        <img class="img-thumbnail mb-2" src="assets/customerIcon.png" alt="customer profile">
         <a href="signUpPage.php">
-        <button class="btn btn-primary">A Customer</button class="btn">
+            <img class="img-thumbnail mb-2 rounded-circle border-danger" src="assets/customerIcon.png" alt="customer profile">
         </a>
+        <h2>Customer</h2>
+        <!-- <button class="btn btn-primary">A Customer</button class="btn"> -->
     </div>
 </div>
 
