@@ -29,7 +29,7 @@ Shared::header("LoGrow farm Login Page");
 <!-- Remember me check box and forget password link -->
 <div class="form-check form-check-inline">
     <input type="checkbox" class="form-check-input" id="rememberMe">
-    <label class="form-check-label" for="rememberMe">By signing up you accept the term of service and privacy policy</label>
+    <label class="form-check-label small-text" for="rememberMe">By signing up you accept the term of service and privacy policy</label>
 </div>
 </div>
 </div>

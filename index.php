@@ -36,9 +36,9 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 <!-- Remember me check box and forget password link -->
 <div class="form-check form-check-inline">
     <input type="checkbox" class="form-check-input" id="rememberMe">
-    <label class="form-check-label" for="rememberMe">Remember me</label>
+    <label class="form-check-label small-text" for="rememberMe">Remember me</label>
 </div>
-<a href="#">Forget Password?</a>
+<a class="small-text" href="#">Forget Password?</a>
 <!-- End of Remember me and forget password row -->
 </div>
 </div>
@@ -47,7 +47,7 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 <button type="button" class="btn btn-success w-100 btn-lg my-2">Sign in</button>
 
 <!-- Don't have an account link -->
-<a href="selectUserProfileType.php">Don't have an account?</a>
+<a  href="selectUserProfileType.php">Don't have an account?</a>
 
 </form>
 <!-- End of form section -->

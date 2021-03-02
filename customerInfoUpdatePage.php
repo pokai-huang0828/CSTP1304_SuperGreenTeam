@@ -1,14 +1,14 @@
 <?php 
 require_once("inc/utilities/Shared.class.php");
 require_once("inc/utilities/Form.class.php");
-Shared::header("LoGrow farm Login Page", "css/signInPage.css");
+Shared::header("LoGrow farm Login Page", "css/customerProfilePage.css");
 Shared::navbar();
 ?>
 
 <!-- Customer profile picture section -->
-<div class="container text-center mt-1 mb-2">
+<div class="container text-center mt-1 mb-2 profileImgEditSection">
     <img class="img-fluid rounded-circle mb-1" src="assets/user1.jpg" alt="profile picture" width="40%"><br>
-    <button type="button" class="btn btn-sm btn-outline-dark">Edit <i class="bi bi-pencil-square"></i></button>
+    <button type="button" class="btn btn-sm">Edit <i class="bi bi-pencil-square"></i></button>
 </div>
 
 <hr>

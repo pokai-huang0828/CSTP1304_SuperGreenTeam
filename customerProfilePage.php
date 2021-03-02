@@ -1,6 +1,6 @@
 <?php 
 require_once("inc/utilities/Shared.class.php");
-Shared::header("LoGrow farm Login Page", "css/signInPage.css");
+Shared::header("LoGrow farm Login Page", "css/customerProfilePage.css");
 Shared::navbar();
 ?>
 
@@ -13,10 +13,9 @@ Shared::navbar();
         <h2>Billy G.</h2>
     </div>
 
-    <div class="card success col-8">
-    <div class="card-header"><h3>Your farm Credits:</h3></div>
-    <div class="card-body text-success">
-        <h2 class="card-title"><i class="bi bi-wallet"></i> 721</h2>
+    <div class="card success col-8" id="creditBoard">
+    <div class="card-body row align-items-center">
+        <h1>Your farm Credits: 721</h1>
     </div>
     </div>
 </div>
