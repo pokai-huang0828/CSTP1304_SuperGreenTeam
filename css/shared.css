@@ -16,3 +16,12 @@ html, body {
     border: 1px lightgray solid;
     border-radius: 2%;
 }
+
+#banner {
+    background-image: url("/assets/farm-food.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 0 !important;
+    min-height: 35%;
+}
