@@ -35,14 +35,12 @@ class Shared {
 
 
     static function footer() { ?>
-
-            
+    
             <footer>
             <!-- Copyright -->
             <div class="text-center">
             © 2021 SuperGreenTeam
             </div>
-            <!-- Copyright -->
             </footer>
 
             <!-- Bootstrap Bundle with Popper -->
@@ -74,7 +72,7 @@ class Shared {
                 <ul class="navbar-nav">
                 
                 <li class="nav-item btn btn-border">
-                    <a class="nav-link" href="customerInfoUpdatePage.php">Update my info</a>
+                    <a class="nav-link" href="customerInfoUpdatePage.php">Update Info</a>
                 </li>
                 
                 <li class="nav-item btn btn-border">

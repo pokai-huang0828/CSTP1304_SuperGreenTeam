@@ -39,6 +39,31 @@ class Form {
 
     <?php }
 
+    static function creditCardInfo(){ ?>
+
+        <div class="card">
+        <div class="card-body">
+
+        <div class="form-row">
+            <div class="col mb-2">
+                <span>Credit Card Number</span>
+                <input type="text" class="form-control" placeholder="credit card number">
+            </div>
+            <div class="col mb-2">
+                <span>Expire date</span>
+                <input type="date" class="form-control">
+            </div>
+            <div class="col mb-2">
+                <span>CVV</span>
+            <input type="text" class="form-control" placeholder="cvv">
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+    <?php }
+
 }
 
 ?>
