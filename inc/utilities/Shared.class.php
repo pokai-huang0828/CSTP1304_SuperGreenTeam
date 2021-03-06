@@ -21,6 +21,9 @@ class Shared {
                 <!-- Bootstrap Icons -->
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
+                <!-- Font Awesome here (from our CDN or by hosting yourself) -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
                 <!-- CSS -->
                 <link rel="stylesheet" href="css/shared.css">
                 <!-- For Extra CSS -->
@@ -52,28 +55,33 @@ class Shared {
         <div class="container">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars"></i>
             </button>
 
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="assets/logo.png" width=200 alt="LoGrow farm logo">
             </a>
 
-            <div class="collapse navbar-collapse flex-row-reverse mt-1" id="navbarTogglerDemo01">
+            <button class="navbar-toggler" type="button" type="button">
+            <i class="far fa-comment-dots"></i>
+            </button>
+
+            <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
                 <hr>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav list-group">
                 
-                <li class="nav-item btn btn-border">
-                    <a class="nav-link" href="customerInfoUpdatePage.php">Update Info</a>
+                <li class="nav-item list-group-item list-group-item-success">
+                    <a class="nav-link" href="customerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
                 </li>
                 
-                <li class="nav-item btn btn-border">
-                    <a class="nav-link" href="#">Logout</a>
+                <li class="nav-item list-group-item list-group-item-info">
+                    <a class="nav-link" href="#"><i class="far fa-comment-dots"></i> Messages</a>
                 </li>
 
-                <li class="nav-item btn">
-                    <i class="bi bi-chat-left-dots" style="font-size: 1.5rem;"></i>
+                <li class="nav-item list-group-item list-group-item-danger">
+                    <a class="nav-link" href="index.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
                 </li>
+
                 </ul>
             </div>
         </div>
