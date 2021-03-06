@@ -2,6 +2,72 @@
 
 class Form {
 
+    static function signInForm(){ ?>
+
+        <img class="img-fluid" src="assets/logo.png" alt="">
+        <!-- sign up form start -->
+        <form>
+        <!-- User Email -->
+        <div class="form-group my-2">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="username@example.com">
+        </div>
+        <div class="form-group">
+
+        <!-- User Password -->
+        <div class="form-group my-2">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="********">
+        </div>
+
+        <div class="form-group my-2">
+        <!-- Remember me and forget password row -->
+        <div class="d-flex flex-row justify-content-between ">
+        <!-- Remember me check box and forget password link -->
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label small-text" for="rememberMe">Remember me</label>
+        </div>
+        <a class="small-text" href="#">Forget Password?</a>
+        <!-- End of Remember me and forget password row -->
+        </div>
+        </div>
+
+        <!-- Sign in button -->
+        <button type="button" class="btn btn-success w-100 btn-lg my-2">Sign in</button>
+
+        <!-- Don't have an account link -->
+        <a  href="selectUserProfileType.php">Don't have an account?</a>
+        </form>
+        <!-- End of form section -->
+
+    <?php }
+
+    static function signUpForm(){?>
+
+        <form>
+            
+        <!-- return basic info input controls -->
+        <?php Form::basicInfo()?>
+
+        <div class="form-group my-2">
+        <!-- Remember me and forget password row -->
+        <div class="d-flex flex-row justify-content-between ">
+        <!-- Remember me check box and forget password link -->
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label small-text" for="rememberMe">By signing up you accept the term of service and privacy policy</label>
+        </div>
+        </div>
+        </div>
+
+        <!-- Sign in button -->
+        <button type="button" class="btn btn-success w-100 btn-lg my-2">Sign Up</button>
+
+        </form>
+
+    <?php }
+
     static function basicInfo($preset=false){ ?>
 
         <!-- User First Name -->

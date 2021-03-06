@@ -1,49 +1,40 @@
 <?php 
 require_once("inc/utilities/Shared.class.php");
-Shared::header("LoGrow farm Login Page");
+require_once("inc/utilities/Form.class.php");
+Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 ?>
 
-<div style="height: 100%">
-<div class="row" style="height: 100%">
+<div class="row row align-items-end" id="signUpWrapper">
 
-<!-- Banner Section -->
-<div class="col-lg-6 my-auto row" id="banner">
+<div class="col-12 col-sm-6 offset-sm-3 gx-0 px-4 align-self-start text-center">
+
+	<!-- Select a user form -->
+	<h2 style="padding:5% 0">Choose an user type:</h2>
+
+	<div class="row justify-content-center">
+
+	<div class="col-8">
+	<a href="signUpPage.php">
+	<img class="img-thumbnail mb-2 rounded-circle border-success" src="assets/farmerIcon.png" alt="farmer profile">
+	</a>
+	<h2>Farmer</h2>
+	</div>
+
+	<div class="col-8">
+	<a href="signUpPage.php">
+	<img class="img-thumbnail mb-2 rounded-circle border-danger" src="assets/customerIcon.png" alt="customer profile">
+	</a>
+	<h2>Customer</h2>
+	</div>
+	<!-- End of row -->
+	</div>
+	
 </div>
 
-<!-- Form Section -->
-<div class="col-lg-6 my-auto px-5">
-
-<a href="index.php">
-    <img class="px-3 py-3 img-fluid d-block align-self-center" src="./assets/logo.png" alt="loGrow farm logo">
-</a>
-
-<div class="mx-auto text-center" style="width: 90%;">
-  <h2>Are You a ...?</h2>
+<div class="col-12 col-sm-12">
+	<img class="farmFoodBanner" src="assets/farmFood.jpg" alt="">
 </div>
 
-<div class="row text-center">
-    <div class="col">
-        <a href="signUpPage.php">
-        <img class="img-thumbnail mb-2 rounded-circle border-success" src="assets/farmerIcon.png" alt="farmer profile">
-        </a>
-    <h2>Farmer</h2>
-        <!-- <button class="btn btn-primary">A Farmer</button class="btn"> -->
-    </div>
-    <div class="col">
-        <a href="signUpPage.php">
-            <img class="img-thumbnail mb-2 rounded-circle border-danger" src="assets/customerIcon.png" alt="customer profile">
-        </a>
-        <h2>Customer</h2>
-        <!-- <button class="btn btn-primary">A Customer</button class="btn"> -->
-    </div>
-</div>
-
-
-</div>
-
-<!-- End of row -->
-</div>
-<!-- End of container -->
 </div>
 
 <?php

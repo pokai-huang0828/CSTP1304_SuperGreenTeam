@@ -13,8 +13,7 @@ class Shared {
 
                 <!-- Google Font Recursive -->
                 <link rel="preconnect" href="https://fonts.gstatic.com">
-                <!-- <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;800&display=swap" rel="stylesheet"> -->
-                <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
 
                 <!-- Bootstrap CSS -->
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -35,13 +34,6 @@ class Shared {
 
 
     static function footer() { ?>
-    
-            <footer>
-            <!-- Copyright -->
-            <div class="text-center">
-            © 2021 SuperGreenTeam
-            </div>
-            </footer>
 
             <!-- Bootstrap Bundle with Popper -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>

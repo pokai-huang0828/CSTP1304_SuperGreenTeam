@@ -1,9 +1,9 @@
 html, body {
-    /* font-family: 'Recursive', sans-serif; */
-    font-family: 'Akaya Kanadaka', cursive;
-    background-color: rgba(238, 238, 238, 0.877);
-    font-size: 1.1em;
-    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    background: rgb(251,251,251);
+    font-size: 1.0em;
+    margin:0;
+    padding:0;
 }
 
 .small-text {
@@ -14,18 +14,13 @@ html, body {
     font-size: 1.2em;
 }
 
-.bordered {
-    border: 1px lightgray solid;
-    border-radius: 2%;
+hr:not([size]) {
+    color:#0b8032;
+    height: 2px;
 }
 
-#banner {
-    background-image: url("../assets/farmFood.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    margin: 0 !important;
-    min-height: 35%;
+.bordered {
+    border: 1px lightgray solid;
 }
 
 /* Nav tab background and link color */
@@ -51,17 +46,6 @@ a{
     border: 1px rgba(0, 0, 0, 0.301) solid;
 }
 
-/* Footer */
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: rgba(28, 80, 50, 0.945);
-    color:rgb(255, 255, 255);
-}
-
 /* link fades on hover */
 a:hover {
     opacity: 0.9;
@@ -74,3 +58,4 @@ a:hover {
     border: 2px solid rgba(68, 68, 68, 0.719);
     background-color: rgba(120, 126, 120, 0.37);
 }
+
