@@ -1,6 +1,7 @@
 <?php 
 require_once("inc/utilities/Shared.class.php");
 Shared::header("LoGrow farm DM list", "css/customerProfilePage.css");
+Shared::navbar();
 ?>
 
 <style>
@@ -9,7 +10,7 @@ a:link {
 }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <input type="button" class="btn btn-lg btn-success" onclick="location.href='customerProfilePage.php';" value="<-" />
 
@@ -19,7 +20,7 @@ a:link {
             <img class="img-fluid" src="assets/logo.png" width=200 alt="LoGrow farm logo">
         </a>
     </div>
-</nav>
+</nav> -->
 
 <!--DM List-->
 <ul class="list-group">

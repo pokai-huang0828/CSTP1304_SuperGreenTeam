@@ -1,0 +1,13 @@
+#messageParent{
+    display: flex;
+    height: 90vh;
+    flex-flow:column;
+    padding: 10px;
+}
+#messages{
+    flex: 100%;
+}
+#messageInput{
+    flex: 30%;
+}
+
