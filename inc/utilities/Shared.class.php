@@ -71,11 +71,14 @@ class Shared {
                     <a class="nav-link" href="#">Logout</a>
                 </li>
 
-                <li class="nav-item btn">
-                    <i class="bi bi-chat-left-dots" style="font-size: 1.5rem;"></i>
-                </li>
                 </ul>
+
             </div>
+
+            <li class="nav-item btn">
+                <button class="bi bi-chat-left-dots" type="button" style="font-size: 1.5rem;" onclick="location.href='dmList.php';"></button>
+            </li>
+             
         </div>
         </nav>
 
