@@ -23,9 +23,14 @@ class Shared {
 
                 <!-- Font Awesome here (from our CDN or by hosting yourself) -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+                
+                <!-- For New Post CSS -->
+                <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+                
 
                 <!-- CSS -->
                 <link rel="stylesheet" href="css/shared.css">
+                
                 <!-- For Extra CSS -->
                 <link rel="stylesheet" href="<?php echo $extraLink?>">
 
@@ -58,12 +63,13 @@ class Shared {
             <i class="fas fa-bars"></i>
             </button>
 
-            <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="assets/logo.png" width=200 alt="LoGrow farm logo">
+            <a class="navbar-brand" href="communityBoard.php">
+                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
             </a>
 
+            
             <button class="navbar-toggler" type="button" type="button">
-            <i class="far fa-comment-dots"></i>
+            <i class="bi bi-chat-left-dots">
             </button>
 
             <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
@@ -75,7 +81,7 @@ class Shared {
                 </li>
                 
                 <li class="nav-item list-group-item list-group-item-info">
-                    <a class="nav-link" href="#"><i class="far fa-comment-dots"></i> Messages</a>
+                    <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-danger">
@@ -89,10 +95,116 @@ class Shared {
 
     <?php }
 
+    static function farmerNavbar() { ?>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="communityBoard.php">
+                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
+            </a>
+
+            
+            <button class="navbar-toggler" type="button" type="button">
+            <i class="bi bi-chat-left-dots"></i>
+            </button>
+
+            <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
+                <hr>
+                <ul class="navbar-nav list-group">
+                
+                <li class="nav-item list-group-item list-group-item-light">
+                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                </li>
+                
+                <li class="nav-item list-group-item list-group-item-warning">
+                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-success">
+                    <a class="nav-link" href="farmerNewPostPage.php"><i class="bi bi-file-plus"></i> New Post</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-info">
+                    <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-danger">
+                    <a class="nav-link" href="index.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+    <?php }
+
+    static function mainNavbar() { ?>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="communityBoard.php">
+                <img class="img-fluid" src="assets/logo.png" width=140 alt="LoGrow farm logo">
+            </a>
 
 
+            <a class="navbar-toggler"  type="button" href="farmerProfilePage.php">
+            <i class="bi bi-person-circle"></i>
+            </a>
+
+            <a class="navbar-toggler"  type="button">
+            <i class="bi bi-search"></i>
+            </a>
+
+            <a class="navbar-toggler"  type="button">
+            <i class="bi bi-chat-left-dots"></i>
+            </a>
+
+            <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
+                <hr>
+                <ul class="navbar-nav list-group">
+                
+                <li class="nav-item list-group-item list-group-item-light">
+                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                </li>
+                
+                <li class="nav-item list-group-item list-group-item-warning">
+                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-success">
+                    <a class="nav-link" href="farmerNewPostPage.php"><i class="bi bi-file-plus"></i> New Post</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-info">
+                    <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                </li>
+                
+                <li class="nav-item list-group-item list-group-item-danger">
+                    <a class="nav-link" href="index.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+    <?php }
+
+    
+
+    
 
 }
-
 
 ?>

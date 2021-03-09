@@ -34,7 +34,7 @@ class Form {
         </div>
 
         <!-- Sign in button -->
-        <button type="button" class="btn btn-success w-100 btn-lg my-2">Sign in</button>
+        <a type="button" class="btn btn-success w-100 btn-lg my-2" href="communityBoard.php">Sign in</a>
 
         <!-- Don't have an account link -->
         <a  href="selectUserProfileType.php">Don't have an account?</a>
@@ -129,6 +129,8 @@ class Form {
         </div>
 
     <?php }
+
+    
 
 }
 
