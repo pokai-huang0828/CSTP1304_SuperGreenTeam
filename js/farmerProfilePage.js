@@ -22,10 +22,10 @@ function toggleFollower(){
     console.log(document.getElementById("followerNumber"));
     if(elClass == "bi bi-person-plus-fill"){
         document.getElementById("addPerson").className = "bi bi-person-plus";
-        document.getElementById("followerNumber").innerText = followerNumber + 1;
+        document.getElementById("followerNumber").innerText = followerNumber - 1;
     }else{
         document.getElementById("addPerson").className = "bi bi-person-plus-fill" ;
-        document.getElementById("followerNumber").innerText = followerNumber - 1;
+        document.getElementById("followerNumber").innerText = followerNumber + 1;
     }
 }
 

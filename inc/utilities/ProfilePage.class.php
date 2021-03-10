@@ -38,7 +38,7 @@ class ProfilePage {
                         <h5>Jack's Farm</h5>
                         <hr>
                         <h6>Followers: <span id="followerNumber">168</span> 
-                        <i class="bi bi-person-plus-fill" id="addPerson" 
+                        <i class="bi bi-person-plus" id="addPerson" 
                         onclick="toggleFollower()"></i></h6>
                         </div>
                         </div>
