@@ -117,20 +117,20 @@ class Shared {
                 <hr>
                 <ul class="navbar-nav list-group">
                 
-                <li class="nav-item list-group-item list-group-item-light">
-                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
-                </li>
-                
-                <li class="nav-item list-group-item list-group-item-warning">
-                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
-                </li>
-
                 <li class="nav-item list-group-item list-group-item-success">
                     <a class="nav-link" href="farmerNewPostPage.php"><i class="bi bi-file-plus"></i> New Post</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-info">
                     <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-light">
+                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-warning">
+                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-danger">
