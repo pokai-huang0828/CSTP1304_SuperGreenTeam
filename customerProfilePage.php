@@ -34,6 +34,7 @@ Shared::navbar();
 <!-- Tab bar targets -->
 <div class="tab-content" id="nav-tabContent" >
 
+  <!--Purchase history-->
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
     <div class="card btn-border" style="color:#0b8032">
@@ -54,6 +55,7 @@ Shared::navbar();
 
   </div>
 
+  <!--Favorite Farmers-->
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
     <ul class="list-group">
       <li class="list-group-item"><img src="assets/farmerIcon.png" alt="avatar1" width="40" height="40" style ="border-radius: 50%"> Kenny Huang<span style="float:right"><i class="bi bi-heart-fill"></i></span></li>
@@ -63,6 +65,7 @@ Shared::navbar();
     </ul>
   </div>
 
+  <!--Event List-->
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
 
     <div class="card">

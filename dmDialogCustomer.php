@@ -1,15 +1,26 @@
 <?php 
 require_once("inc/utilities/Shared.class.php");
-Shared::header("LoGrow farm DM", "css/dmDialog.css");
+Shared::header("LoGrow farm DM - Customer", "css/dmDialog.css");
 Shared::navbar();
 ?>
-
-
 
 <div id="messageParent">
 
     <div id="messages">
-        some messages here...
+
+        <div class="card" style="width: 18rem; float:right;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Add me to this event</li>
+            </ul>
+         </div>
+
+        <div class="card" style="width: 18rem; float:right;">
+            <div class="card-body">
+                <h5 class="card-title" style="color:#0b8032"><b>RSVP - Happy Event</b></h5>
+                <p class="card-text">Address: 114 Kingsway, Vancouver <br> Hosted by: Kenny, the Farmer <br> Date: March 21, 2021</p>
+            </div>
+        </div>
+        
     </div>
 
     <div class="row justify-content-evenly text-center align-items-center" id="messageInput" style="margin:0">
