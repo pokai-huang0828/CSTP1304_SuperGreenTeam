@@ -215,7 +215,7 @@ ProfilePage::farmerProfileCard();
                                 Thank you! <i class="bi bi-emoji-smile"></i>
                             </div>
                             <div class="modal-footer">
-                                <a type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Close</a>
+                                <a type="button" class="btn btn-success" data-bs-dismiss="modal">Close</a>
                             </div>
                         </div>
                     </div>
