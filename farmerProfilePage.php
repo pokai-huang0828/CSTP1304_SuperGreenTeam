@@ -200,7 +200,7 @@ ProfilePage::farmerProfileCard();
 
                 <!-- CheckOut Button -->
                 <div class="d-flex justify-content-around mb-3">                                                                    
-                    <button class="btn btn-outline-success btn-sm col-5" onclick="checkoutClick()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button class="btn btn-success btn-sm col-5" onclick="checkoutClick()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="bi bi-cart-check"></i> Check Out</button>                                                                
                 </div>
 
