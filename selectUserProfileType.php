@@ -14,14 +14,14 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 	<div class="row justify-content-center">
 
 	<div class="col-8">
-	<a href="signUpPage.php">
+	<a href="signUpPage.php?user=farmer">
 	<img class="img-thumbnail mb-2 rounded-circle border-success" src="assets/farmerIcon.png" alt="farmer profile">
 	</a>
 	<h2>Farmer</h2>
 	</div>
 
 	<div class="col-8">
-	<a href="signUpPage.php">
+	<a href="signUpPage.php?user=customer">
 	<img class="img-thumbnail mb-2 rounded-circle border-danger" src="assets/customerIcon.png" alt="customer profile">
 	</a>
 	<h2>Customer</h2>

@@ -4,3 +4,11 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+.tab-content h5{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.tab-content h6{
+    font-size: 1.1em;
+}

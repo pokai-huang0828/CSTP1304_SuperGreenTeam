@@ -33,8 +33,10 @@ class Form {
         </div>
         </div>
 
+        <!-- Error Message -->
+        <div class="row d-flex text-center"><span style="display: none;" id="loginFailed">Login Failed</span></div>
         <!-- Sign in button -->
-        <a type="button" class="btn btn-success w-100 btn-lg my-2" href="communityBoard.php">Sign in</a>
+        <button type="button" class="btn btn-success w-100 btn-lg my-2" onclick="signIn()">Sign in</button>
 
         <!-- Don't have an account link -->
         <a  href="selectUserProfileType.php">Don't have an account?</a>
@@ -43,7 +45,7 @@ class Form {
 
     <?php }
 
-    static function signUpForm(){?>
+    static function signUpForm($user){?>
 
         <form>
             
@@ -62,7 +64,9 @@ class Form {
         </div>
 
         <!-- Sign in button -->
+        <a href="communityBoard.php?user=<?php echo $user?>">
         <button type="button" class="btn btn-success w-100 btn-lg my-2">Sign Up</button>
+        </a>
 
         </form>
 

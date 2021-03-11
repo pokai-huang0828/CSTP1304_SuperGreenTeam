@@ -2,7 +2,12 @@
 require_once("inc/utilities/Shared.class.php");
 require_once("inc/utilities/Form.class.php");
 Shared::header("LoGrow farm Main page", "css/farmerProfilePage.css");
-Shared::mainNavbar();
+
+if($_GET["user"]=="farmer"){
+     Shared::mainNavbar();
+}else{
+     Shared::Navbar();
+}
 ?>
 
 <!-- Update Post -->
@@ -69,7 +74,7 @@ Shared::mainNavbar();
                     <span class="post-title">Farm Party On April 15, 2020</span>
                     <p class="text-truncate postContent">Have a guest like you in our party will be awesome. Please join us as we all celebrate the evening with friends.</p>
                     <span class="readMore" onclick="readMore(this)">Read more...</span>
-                    <button class="navbar-toggler join-event-button my-2" type="button">
+                    <button class="navbar-toggler join-event-button my-2" type="button" onclick="joinButtonClick(this)">
                         <i class="bi bi-check2-square"></i><span> Join Event</span>
                     </button>
                </div>

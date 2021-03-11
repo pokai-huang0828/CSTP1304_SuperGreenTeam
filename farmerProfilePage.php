@@ -99,7 +99,7 @@ ProfilePage::farmerProfileCard();
                     <span class="post-title">Farm Party On April 15, 2020</span>
                     <p class="text-truncate postContent">Have a guest like you in our party will be awesome. Please join us as we all celebrate the evening with friends.</p>
                     <span class="readMore" onclick="readMore(this)">Read more...</span>
-                    <button class="navbar-toggler join-event-button my-2" type="button">
+                    <button class="navbar-toggler join-event-button my-2" type="button" onclick="joinButtonClick(this)">
                         <i class="bi bi-check2-square"></i><span> Join Event</span>
                     </button>
                 </div>
@@ -193,7 +193,7 @@ ProfilePage::farmerProfileCard();
                         </div>
                         <div class="col-6">
                             <input type="radio" id="FarmCoin" name="payment" value="FarmCoin">
-                            <label for="FarmCoin"><i class="bi bi-stop-circle"></i> Farm Coins</label><br>
+                            <label for="FarmCoin"><i class="fas fa-coins"></i> Farm Coins</label><br>
                         </div>
                     </div>
                 </div>

@@ -16,8 +16,9 @@ Shared::header("LoGrow farm Login Page", "css/signInPage.css");
 	</div>
 </div>
 
-
 </div>
+
+<script src="js/shared.js"></script>
 
 <?php
 Shared::footer();

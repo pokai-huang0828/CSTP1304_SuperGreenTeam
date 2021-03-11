@@ -11,7 +11,7 @@ Shared::header("LoGrow farm Login Page");
 			<img class="img-fluid" src="./assets/logo.png" alt="loGrow farm logo">
 		</a>
 		<hr>
-		<?php Form::signUpForm()?>
+		<?php Form::signUpForm($_GET["user"])?>
 	</div>
 
 </div>

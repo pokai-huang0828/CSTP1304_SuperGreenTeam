@@ -48,3 +48,7 @@ function readMore(el){
         el.parentNode.childNodes[5].className = "text-truncate postContent";
     }
 }
+
+function joinButtonClick(el){
+    el.disabled = true;
+}

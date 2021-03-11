@@ -13,9 +13,9 @@ class ProfilePage {
                     </div>
                     <div class="col-8">
                         <div class="card-body">
-                        <h5>Welcome, Billy G.</h5>
+                        <h5>Welcome, Billy</h5>
                         <hr>
-                        <p>Your farm Credits: 721</p>
+                        <p><i class="fas fa-coins"></i> Farm Coins: 721</p>
                         </div>
                         </div>
                     </div>

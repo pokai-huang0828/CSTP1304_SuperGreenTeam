@@ -23,10 +23,6 @@ class Shared {
 
                 <!-- Font Awesome here (from our CDN or by hosting yourself) -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-                
-                <!-- For New Post CSS -->
-                <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light/all.min.css" />
-                
 
                 <!-- CSS -->
                 <link rel="stylesheet" href="css/shared.css">
@@ -63,25 +59,33 @@ class Shared {
             <i class="fas fa-bars"></i>
             </button>
 
-            <a class="navbar-brand" href="communityBoard.php">
-                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
+            <a class="navbar-brand" href="communityBoard.php?user=<?php echo $_GET['user']?>">
+                <img class="img-fluid" src="assets/logo.png" width=160 alt="LoGrow farm logo">
             </a>
 
-            
-            <button class="navbar-toggler" type="button" type="button">
-            <i class="bi bi-chat-left-dots">
-            </button>
+            <div class="row gx-1">
+                <div class="col">
+                    <a class="navbar-toggler"  type="button" href="customerProfilePage.php?user=<?php echo $_GET['user']?>">
+                    <i class="bi bi-person-circle"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="dmList.php?user=customer" class="navbar-toggler"  type="button">
+                    <i class="bi bi-chat-left-dots"></i>
+                    </a>
+                </div>
+            </div>
 
             <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
                 <hr>
                 <ul class="navbar-nav list-group">
                 
                 <li class="nav-item list-group-item list-group-item-success">
-                    <a class="nav-link" href="customerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                    <a class="nav-link" href="customerInfoUpdatePage.php?user=<?php echo $_GET['user']?>"><i class="fas fa-user-circle"></i> Update Info</a>
                 </li>
                 
                 <li class="nav-item list-group-item list-group-item-info">
-                    <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                    <a class="nav-link" href="dmList.php?user=<?php echo $_GET['user']?>"><i class="far fa-comment-dots"></i> Messages</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-danger">
@@ -104,33 +108,32 @@ class Shared {
             <i class="fas fa-bars"></i>
             </button>
 
-            <a class="navbar-brand" href="communityBoard.php">
-                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
+            <a class="navbar-brand" href="communityBoard.php?user=<?php echo $_GET['user']?>">
+                <img class="img-fluid" src="assets/logo.png" width=160 alt="LoGrow farm logo">
             </a>
 
-            
-            <button class="navbar-toggler" type="button" type="button">
+            <a href="dmList.php?user=farmer" class="navbar-toggler" type="button" type="button">
             <i class="bi bi-chat-left-dots"></i>
-            </button>
+            </a>
 
             <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
                 <hr>
                 <ul class="navbar-nav list-group">
                 
                 <li class="nav-item list-group-item list-group-item-success">
-                    <a class="nav-link" href="farmerNewPostPage.php"><i class="bi bi-file-plus"></i> New Post</a>
+                    <a class="nav-link" href="farmerNewPostPage.php?user=<?php echo $_GET['user']?>"><i class="bi bi-file-plus"></i> New Post</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-info">
-                    <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                    <a class="nav-link" href="dmList.php?user=<?php echo $_GET['user']?>"><i class="bi bi-chat-left-dots"></i> Messages</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-light">
-                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                    <a class="nav-link" href="farmerInfoUpdatePage.php?user=<?php echo $_GET['user']?>"><i class="fas fa-user-circle"></i> Update Info</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-warning">
-                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
+                    <a class="nav-link" href="farmerProductUpdatePage.php?user=<?php echo $_GET['user']?>"><i class="bi bi-bag-plus"></i> Update Product</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-danger">
@@ -153,19 +156,23 @@ class Shared {
             <i class="fas fa-bars"></i>
             </button>
 
-            <a class="navbar-brand" href="communityBoard.php">
-                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
+            <a class="navbar-brand" href="communityBoard.php?user=<?php echo $_GET['user']?>">
+                <img class="img-fluid" src="assets/logo.png" width=160 alt="LoGrow farm logo">
             </a>
 
+            <div class="row gx-1">
+                <div class="col">
+                    <a class="navbar-toggler"  type="button" href="farmerProfilePage.php?user=<?php echo $_GET['user']?>">
+                    <i class="bi bi-person-circle"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="dmList.php?user=farmer" class="navbar-toggler"  type="button">
+                    <i class="bi bi-chat-left-dots"></i>
+                    </a>
+                </div>
+            </div>
 
-            <a class="navbar-toggler"  type="button" href="farmerProfilePage.php">
-            <i class="bi bi-person-circle"></i>
-            </a>
-
-
-            <a class="navbar-toggler"  type="button">
-            <i class="bi bi-chat-left-dots"></i>
-            </a>
 
             <div class="input-group rounded">
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
@@ -180,19 +187,19 @@ class Shared {
                 <ul class="navbar-nav list-group">
                 
                 <li class="nav-item list-group-item list-group-item-light">
-                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                    <a class="nav-link" href="farmerInfoUpdatePage.php?user=<?php echo $_GET['user']?>"><i class="fas fa-user-circle"></i> Update Info</a>
                 </li>
                 
                 <li class="nav-item list-group-item list-group-item-warning">
-                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
+                    <a class="nav-link" href="farmerProductUpdatePage.php?user=<?php echo $_GET['user']?>"><i class="bi bi-bag-plus"></i> Update Product</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-success">
-                    <a class="nav-link" href="farmerNewPostPage.php"><i class="bi bi-file-plus"></i> New Post</a>
+                    <a class="nav-link" href="farmerNewPostPage.php?user=<?php echo $_GET['user']?>"><i class="bi bi-file-plus"></i> New Post</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-info">
-                    <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                    <a class="nav-link" href="dmList.php?user=<?php echo $_GET['user']?>"><i class="bi bi-chat-left-dots"></i> Messages</a>
                 </li>
                 
                 <li class="nav-item list-group-item list-group-item-danger">
@@ -206,8 +213,23 @@ class Shared {
 
     <?php }
 
-    
+    static function dmNavbar() { ?>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+        <a class="navbar-brand" href="communityBoard.php?user=<?php echo $_GET['user']?>">
+            <img class="img-fluid" src="assets/logo.png" width=160 alt="LoGrow farm logo">
+        </a>
+
+        <button class="navbar-toggler" onclick="goBack()">
+        <i class="bi bi-arrow-90deg-left"></i>
+        </button>
+
+    </div>
+    </nav>
+
+<?php }
     
 
 }

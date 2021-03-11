@@ -9,7 +9,7 @@ Shared::farmerNavbar();
 <form class="mx-4">
   <div class="text-center mt-0 profileImgEditSection">
     <img class="img-fluid rounded-circle" src="assets/user2.jpg" alt="profile picture" width="45%"><br>
-    <button type="button" class="btn btn-sm">Edit <i class="bi bi-pencil-square"></i></button>
+    <button>Edit <i class="bi bi-pencil-square" style="color:black"></i></button>
   </div>
   <!-- <hr> -->
     

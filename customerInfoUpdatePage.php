@@ -9,7 +9,7 @@ Shared::navbar();
 <form class="mx-4">
 <div class="text-center mt-1 profileImgEditSection">
   <img class="img-fluid rounded-circle" src="assets/user1.jpg" alt="profile picture" width="40%"><br>
-  <button type="button" class="btn btn-sm">Edit <i class="bi bi-pencil-square"></i></button>
+  <button type="button">Edit <i class="bi bi-pencil-square"></i></button>
 </div>
 <hr>
   

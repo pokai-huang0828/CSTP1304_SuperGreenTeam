@@ -69,5 +69,15 @@ i{
     margin-top: 30px;
 }
 
+/* diabled button */
+button:disabled{
+    background-color: gray;
+}
+
+/* btn */
+.btn {
+    color:white !important;
+}
+
 
 
