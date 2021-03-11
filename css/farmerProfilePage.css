@@ -1,0 +1,62 @@
+.join-event-button {
+    background-color: #198754;
+    padding: 6px 10px !important;
+    width:90%;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 1em;
+    letter-spacing: 2.5px;
+}
+
+.tab-pane .card {
+    border: 1px solid rgba(0, 128, 0, 0.753);
+    border-radius: 2%;
+}
+
+.post-title{
+    font-weight: bold !important;
+}
+
+.card-body img{
+    margin: 0 auto;
+}
+
+.iconBar button span{
+    font-size:0.6em;
+}
+.iconBar button i{
+    font-size:0.8em;
+}
+
+.comments h6{
+    font-size:0.8em;
+    font-weight: bold;
+}
+.comments h6 span{
+    font-size:0.8em;
+    font-weight: normal;
+}
+
+/* Price Section */
+.priceSection p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* label */
+label {
+    font-size: 0.9em;
+}
+
+/* Payment Section */
+.paymentSection p{
+    margin:0;
+}
+
+/* Read More Text */
+.readMore {
+    text-decoration: underline;
+}
+.postContent{
+    margin-bottom: 1px;
+}

@@ -117,20 +117,20 @@ class Shared {
                 <hr>
                 <ul class="navbar-nav list-group">
                 
-                <li class="nav-item list-group-item list-group-item-light">
-                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
-                </li>
-                
-                <li class="nav-item list-group-item list-group-item-warning">
-                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
-                </li>
-
                 <li class="nav-item list-group-item list-group-item-success">
                     <a class="nav-link" href="farmerNewPostPage.php"><i class="bi bi-file-plus"></i> New Post</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-info">
                     <a class="nav-link" href="#"><i class="bi bi-chat-left-dots"></i> Messages</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-light">
+                    <a class="nav-link" href="farmerInfoUpdatePage.php"><i class="fas fa-user-circle"></i> Update Info</a>
+                </li>
+
+                <li class="nav-item list-group-item list-group-item-warning">
+                    <a class="nav-link" href="farmerProductUpdatePage.php"><i class="bi bi-bag-plus"></i> Update Product</a>
                 </li>
 
                 <li class="nav-item list-group-item list-group-item-danger">
@@ -154,7 +154,7 @@ class Shared {
             </button>
 
             <a class="navbar-brand" href="communityBoard.php">
-                <img class="img-fluid" src="assets/logo.png" width=140 alt="LoGrow farm logo">
+                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
             </a>
 
 
@@ -162,13 +162,18 @@ class Shared {
             <i class="bi bi-person-circle"></i>
             </a>
 
-            <a class="navbar-toggler"  type="button">
-            <i class="bi bi-search"></i>
-            </a>
 
             <a class="navbar-toggler"  type="button">
             <i class="bi bi-chat-left-dots"></i>
             </a>
+
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
 
             <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
                 <hr>
