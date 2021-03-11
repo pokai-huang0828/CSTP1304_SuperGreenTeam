@@ -34,8 +34,8 @@ Shared::farmerNavbar();
 
   <!-- Confirm and cancel button -->
   <div class="d-flex justify-content-around my-3">
-    <a href="farmerProfilePage.php" class="btn btn-danger btn-sm col-3" role="button">Cancel</a>
-    <a href="farmerProfilePage.php" class="btn btn-success btn-sm col-3" role="button">Confirm</a>
+    <a href="farmerProfilePage.php?user=farmer" class="btn btn-danger btn-sm col-3" role="button">Cancel</a>
+    <a href="farmerProfilePage.php?user=farmer" class="btn btn-success btn-sm col-3" role="button">Confirm</a>
   </div>
 
   <!-- End of form -->

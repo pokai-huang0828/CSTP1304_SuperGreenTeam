@@ -25,8 +25,8 @@ Shared::navbar();
 
 <!-- Confirm and cancel button -->
 <div class="d-flex justify-content-around ">
-  <a href="customerProfilePage.php" class="btn btn-danger btn-sm col-3">Cancel</a>
-  <a href="customerProfilePage.php" class="btn btn-success btn-sm col-3">Confirm</a>
+  <a href="customerProfilePage.php?user=customer" class="btn btn-danger btn-sm col-3">Cancel</a>
+  <a href="customerProfilePage.php?user=customer" class="btn btn-success btn-sm col-3">Confirm</a>
 </div>
 
 <!-- End of form -->
