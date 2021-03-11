@@ -31,8 +31,8 @@ Shared::farmerNavbar();
 
         <!-- Confirm and cancel button -->
         <div class="d-flex justify-content-evenly py-2">
-            <a href="farmerProfilePage.php" class="btn btn-danger col-4" role="button">Cancel</a>
-            <a href="farmerProfilePage.php" class="btn btn-success col-4" role="button">Post</a>
+            <a href="farmerProfilePage.php?user=farmer" class="btn btn-danger col-4" role="button">Cancel</a>
+            <a href="farmerProfilePage.php?user=farmer" class="btn btn-success col-4" role="button">Post</a>
         </div>
 </div>
 
