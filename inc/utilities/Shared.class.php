@@ -154,7 +154,7 @@ class Shared {
             </button>
 
             <a class="navbar-brand" href="communityBoard.php">
-                <img class="img-fluid" src="assets/logo.png" width=140 alt="LoGrow farm logo">
+                <img class="img-fluid" src="assets/logo.png" width=186 alt="LoGrow farm logo">
             </a>
 
 
@@ -162,13 +162,18 @@ class Shared {
             <i class="bi bi-person-circle"></i>
             </a>
 
-            <a class="navbar-toggler"  type="button">
-            <i class="bi bi-search"></i>
-            </a>
 
             <a class="navbar-toggler"  type="button">
             <i class="bi bi-chat-left-dots"></i>
             </a>
+
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
 
             <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
                 <hr>
