@@ -79,5 +79,8 @@ button:disabled{
     color:white !important;
 }
 
+.card-header a{
+    text-decoration: none;
+}
 
 

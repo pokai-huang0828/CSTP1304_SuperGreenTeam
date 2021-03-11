@@ -42,7 +42,7 @@ ProfilePage::farmerProfileCard();
             <!-- Card Header -->
             <div class="card-header">
                 <img type="image" class="img-fluid rounded-circle" src="assets/user2.jpg" alt="farmer picture" width="40">
-                <a class style="font-size:20px" href="farmerProfilePage.php">Jack's Farm</a>
+                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Jack's Farm</a>
                 <span style="font-size:0.8em; color: grey;"> 2 days ago</span>
                 <br>
             </div>
@@ -87,7 +87,7 @@ ProfilePage::farmerProfileCard();
             <!-- Card Header -->
             <div class="card-header">
                 <img type="image" class="img-fluid rounded-circle" src="assets/user2.jpg" alt="farmer picture" width="40">
-                <a class style="font-size:20px" href="farmerProfilePage.php">Jack's Farm</a>
+                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Jack's Farm</a>
                 <span style="font-size:0.8em; color: grey;"> 2 days ago</span>
                 <br>
             </div>

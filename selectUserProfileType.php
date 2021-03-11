@@ -2,6 +2,7 @@
 require_once("inc/utilities/Shared.class.php");
 require_once("inc/utilities/Form.class.php");
 Shared::header("LoGrow farm Login Page", "css/signInPage.css");
+session_start();
 ?>
 
 <div class="row row align-items-end" id="signUpWrapper">
