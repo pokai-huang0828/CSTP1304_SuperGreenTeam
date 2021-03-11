@@ -83,4 +83,8 @@ button:disabled{
     text-decoration: none;
 }
 
+.badge-primary {
+    background-color: rgba(35, 98, 216, 0.945);
+}
+
 
