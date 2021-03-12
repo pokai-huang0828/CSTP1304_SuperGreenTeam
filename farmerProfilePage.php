@@ -2,7 +2,7 @@
 require_once("inc/utilities/Shared.class.php");
 require_once("inc/utilities/ProfilePage.class.php");
 Shared::header("LoGrow farm Farmer Profile Page", "css/farmerProfilePage.css");
-Shared::farmerNaddavbar();
+Shared::farmerNavbar();
 ProfilePage::farmerProfileCard();
 ?>
 
