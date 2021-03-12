@@ -14,7 +14,7 @@ Shared::farmerNavbar();
     <div class="row" id="row_style">
         <h4 class="text-center">Submit new product</h4>
         <p>
-        <div class="col-md-4   col-md-offset-4">
+        <div class="col">
             <h6 class="text">Product Name:</h6>
             <div class="input-group">
                 
@@ -51,9 +51,9 @@ Shared::farmerNavbar();
 
 <!-- Confirm and cancel button -->
 <div class="d-flex justify-content-around ">
-  <a href="farmerProductUpdatePage.php" class="btn btn-outline-danger col-3">Cancel</a>
-  <a href="farmerProductUpdatePage.php" class="btn btn-outline-success col-3">Post</a>
-  <a href="farmerProfilePage.php" class="btn btn-outline-success col-3">Back to profile</a>
+  <a href="farmerProductUpdatePage.php" class="btn btn-danger col-3">Cancel</a>
+  <a href="farmerProductUpdatePage.php" class="btn btn-success col-3">Post</a>
+  <a href="farmerProfilePage.php" class="btn btn-success col-3">Back to profile</a>
 </div>
 
 <!-- Farmer View Products -->

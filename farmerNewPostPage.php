@@ -11,7 +11,7 @@ Shared::farmerNavbar();
 
         <div class="form-check d-flex justify-content-center pb-1">
             <input class="form-check-input" type="checkbox" id="event">
-            <h6 class="form-check-label" for="event">This an event post.</h6>
+            <h6 class="form-check-label" for="event" style="font-size:18px">This an event post</h6>
         </div>
 
         <hr>

@@ -15,7 +15,7 @@ Shared::farmerNavbar();
     
   <!-- Farmer profile basic info section -->
   <h5 style="font-weight:bold">Basic Info</h5>
-  <?php Form::basicInfo(true)?>
+  <?php Form::farmerBasicInfo(true)?>
 
   <div class="form-group my-2">
               <label for="Address">Address</label>
