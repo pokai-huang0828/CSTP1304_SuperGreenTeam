@@ -35,7 +35,7 @@ class ProfilePage {
                     </div>
                     <div class="col-8">                   
                         <div class="card-body">
-                        <h5>Jack's Farm</h5>
+                        <h5>Kenny's Farm</h5>
                         <hr>
                         <h6>Followers: <span id="followerNumber">168</span> 
                         <i class="bi bi-person-plus" id="addPerson" 

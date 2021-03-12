@@ -24,7 +24,7 @@ ProfilePage::farmerProfileCard();
     <div class="tab-pane fade " id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
         <hr>  
         <div class="container mx-1"> 
-            <h6 style="font-weight:bold"><i class="bi bi-file-person-fill"></i> Jack's Farm</h6> 
+            <h6 style="font-weight:bold"><i class="bi bi-file-person-fill"></i> Kenny's Farm</h6> 
             <p>At The Local Farm, we aim to provide hyper-local, living leafy greens year-round to 
             Vancouverites with a commitment to following sustainable practices in our specially designed hybrid greenhouse located in Ladner, B.C.</p>
             <h6 style="font-weight:bold"><i class="bi bi-geo-alt-fill"></i> Address</h6> 
@@ -42,7 +42,7 @@ ProfilePage::farmerProfileCard();
             <!-- Card Header -->
             <div class="card-header">
                 <img type="image" class="img-fluid rounded-circle" src="assets/user2.jpg" alt="farmer picture" width="40">
-                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Jack's Farm</a>
+                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Kenny's Farm</a>
                 <span style="font-size:0.8em; color: grey;"> 2 days ago</span>
                 <br>
             </div>
@@ -93,7 +93,7 @@ ProfilePage::farmerProfileCard();
             <!-- Card Header -->
             <div class="card-header">
                 <img type="image" class="img-fluid rounded-circle" src="assets/user2.jpg" alt="farmer picture" width="40">
-                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Jack's Farm</a>
+                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Kenny's Farm</a>
                 <span style="font-size:0.8em; color: grey;"> 2 days ago</span>
                 <br>
             </div>

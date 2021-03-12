@@ -51,9 +51,9 @@ Shared::farmerNavbar();
 
 <!-- Confirm and cancel button -->
 <div class="d-flex justify-content-around ">
-  <a href="farmerProductUpdatePage.php" class="btn btn-danger col-3">Cancel</a>
-  <a href="farmerProductUpdatePage.php" class="btn btn-success col-3">Post</a>
-  <a href="farmerProfilePage.php" class="btn btn-success col-3">Back to profile</a>
+  <a href="farmerProductUpdatePage.php?user=farmer" class="btn btn-danger col-3">Cancel</a>
+  <a href="farmerProductUpdatePage.php?user=farmer" class="btn btn-success col-3">Post</a>
+  <a href="farmerProfilePage.php?user=farmer" class="btn btn-success col-3">Back to profile</a>
 </div>
 
 <!-- Farmer View Products -->

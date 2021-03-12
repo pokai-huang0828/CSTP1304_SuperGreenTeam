@@ -6,7 +6,7 @@ Shared::header("LoGrow farm Main page", "css/farmerProfilePage.css");
 if($_GET["user"]=="farmer"){
      Shared::mainNavbar();
 }else{
-     Shared::Navbar();
+     Shared::customerNavbar();
 }
 ?>
 
@@ -17,7 +17,7 @@ if($_GET["user"]=="farmer"){
           <!-- Card Header -->
           <div class="card-header">
                 <img type="image" class="img-fluid rounded-circle" src="assets/user2.jpg" alt="farmer picture" width="40">
-                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Jack's Farm</a>
+                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Kenny's Farm</a>
                 <span style="font-size:0.8em; color: grey;"> 2 days ago</span>
                 <br>
           </div>
@@ -62,7 +62,7 @@ if($_GET["user"]=="farmer"){
             <!-- Card Header -->
           <div class="card-header">
                 <img type="image" class="img-fluid rounded-circle" src="assets/user2.jpg" alt="farmer picture" width="40">
-                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Jack's Farm</a>
+                <a class style="font-size:20px" href="farmerProfilePage.php<?php echo "?user=".$_GET["user"]?>">Kenny's Farm</a>
                 <span style="font-size:0.8em; color: grey;"> 2 days ago</span>
                 <br>
           </div>
@@ -100,7 +100,7 @@ if($_GET["user"]=="farmer"){
                     <h6>Karen952 : <span>Good to see you!!</span></h6>
                     <h6>Henry8787 : <span>Can't wait to see everyone!!</span></h6>
                     <h6>Lucy666 : <span>Can I bring my pet to join?</span></h5>
-                    <h6>jacksfarm : <span>Sure! Welcome!</span></h5>
+                    <h6>kennyfarm : <span>Sure! Welcome!</span></h5>
                </div>
 
           </div>

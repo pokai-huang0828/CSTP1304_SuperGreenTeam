@@ -76,6 +76,8 @@ class Shared {
                 </div>
             </div>
 
+            
+
             <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
                 <hr>
                 <ul class="navbar-nav list-group">
@@ -202,6 +204,65 @@ class Shared {
                     <a class="nav-link" href="dmList.php?user=<?php echo $_GET['user']?>"><i class="bi bi-chat-left-dots"></i> Messages</a>
                 </li>
                 
+                <li class="nav-item list-group-item list-group-item-danger">
+                    <a class="nav-link" href="index.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+    <?php }
+
+    static function customerNavbar() { ?>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="communityBoard.php?user=<?php echo $_GET['user']?>">
+                <img class="img-fluid" src="assets/logo.png" width=160 alt="LoGrow farm logo">
+            </a>
+
+            <div class="row gx-1">
+                <div class="col">
+                    <a class="navbar-toggler"  type="button" href="customerProfilePage.php?user=<?php echo $_GET['user']?>">
+                    <i class="bi bi-person-circle"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="dmList.php?user=farmer" class="navbar-toggler"  type="button">
+                    <i class="bi bi-chat-left-dots"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+
+            <div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
+                <hr>
+                <ul class="navbar-nav list-group">
+                
+                <li class="nav-item list-group-item list-group-item-success">
+                    <a class="nav-link" href="customerInfoUpdatePage.php?user=<?php echo $_GET['user']?>"><i class="fas fa-user-circle"></i> Update Info</a>
+                </li>
+                
+                <li class="nav-item list-group-item list-group-item-info">
+                    <a class="nav-link" href="dmList.php?user=<?php echo $_GET['user']?>"><i class="far fa-comment-dots"></i> Messages</a>
+                </li>
+
                 <li class="nav-item list-group-item list-group-item-danger">
                     <a class="nav-link" href="index.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
                 </li>
