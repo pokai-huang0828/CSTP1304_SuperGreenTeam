@@ -235,7 +235,7 @@ class Shared {
                     </a>
                 </div>
                 <div class="col">
-                    <a href="dmList.php?user=farmer" class="navbar-toggler"  type="button">
+                    <a href="dmList.php?user=customer" class="navbar-toggler"  type="button">
                     <i class="bi bi-chat-left-dots"></i>
                     </a>
                 </div>

@@ -13,6 +13,8 @@ function signIn(){
         window.location.href = "communityBoard.php?user=farmer";
     } else if(inputs[0].value == "billy@ms.ca"){
         window.location.href = "communityBoard.php?user=customer";
+    } else if(inputs[0].value == "mary@ms.ca"){
+        window.location.href = "communityBoard.php?user=customer";
     } else {
         document.getElementById("loginFailed").style.display = "block";
     }

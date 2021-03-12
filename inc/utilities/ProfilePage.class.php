@@ -9,13 +9,13 @@ class ProfilePage {
                 
                 <div class="row gx-0 px-2">
                     <div class="col-4 align-self-center">
-                        <img class="img-fluid rounded" src="assets/user1.jpg" alt="profile picture">
+                        <img class="img-fluid rounded" src="assets/mary.jpg" alt="profile picture">
                     </div>
                     <div class="col-8">
                         <div class="card-body">
-                        <h5>Welcome, Billy</h5>
+                        <h5>Welcome, Mary</h5>
                         <hr>
-                        <p><i class="fas fa-coins"></i> Farm Coins: 721</p>
+                        <p><i class="fas fa-coins"></i> Farm Coins: 300</p>
                         </div>
                         </div>
                     </div>

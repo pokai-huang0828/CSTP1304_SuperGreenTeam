@@ -77,21 +77,21 @@ class Form {
         <!-- User First Name -->
         <div class="form-group my-2">
             <label for="firstName">First Name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Sam" value="<?php echo ($preset==true)? 'Billy' : '' ?>">
+            <input type="text" class="form-control" id="firstName" placeholder="Sam" value="<?php echo ($preset==true)? 'Mary' : '' ?>">
         </div>
         <div class="form-group">
 
         <!-- User Last Name -->
         <div class="form-group my-2">
             <label for="lastName">Last Name</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Hill" value="<?php echo ($preset==true)? 'G.' : '' ?>">
+            <input type="text" class="form-control" id="lastName" placeholder="Hill" value="<?php echo ($preset==true)? 'H.' : '' ?>">
         </div>
         <div class="form-group">
 
         <!-- User Email -->
         <div class="form-group my-2">
             <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="username@example.com" value="<?php echo ($preset==true)? 'billy@ms.com' : '' ?>">
+            <input type="email" class="form-control" id="email" placeholder="username@example.com" value="<?php echo ($preset==true)? 'Mary@ms.com' : '' ?>">
         </div>
         <div class="form-group">
 

@@ -24,7 +24,7 @@ ProfilePage::profileCard();
 
     <div class="card btn-border" style="color:#0b8032">
       <div class="card-body" >
-        <h5 class="card-title" style="text-align:left">5 tomatoes <span style="float:right"> FC.25 </span></h5>
+        <h5 class="card-title" style="text-align:left">5 tomatoes <span style="float:right"> $25.00 CAD </span></h5>
         <h6 class="card-subtitle mb-2 text-muted">Purchased using Farm Coin</h6>
         <h6 class="card-subtitle mb-2 text-muted">March 02, 2021</h6>
       </div>
@@ -32,7 +32,7 @@ ProfilePage::profileCard();
 
     <div class="card" style="color:#0b8032">
       <div class="card-body">
-        <h5 class="card-title" style="text-align:left">10 Carrots <span style="float:right"> $9.99 </span></h5>
+        <h5 class="card-title" style="text-align:left">10 Carrots <span style="float:right"> $9.99 CAD</span></h5>
         <h6 class="card-subtitle mb-2 text-muted">Purchased using credit card</h6>
         <h6 class="card-subtitle mb-2 text-muted">February 27, 2021</h6>
       </div>
