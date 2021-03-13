@@ -1,4 +1,4 @@
-# CSTP1304_SuperGreenTeam
+# CSTP1304 The Lo-Grow App Project
 
 ## App Description
 
